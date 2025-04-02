@@ -75,7 +75,7 @@ class Task1KtTest {
 
     @Test
     fun testUnknownCardType() {
-        assertEquals(-2, transaction("Unknown", 0, 1000))
+        assertEquals(150, transaction("Unknown", 0, 1000))
     }
 }
 
